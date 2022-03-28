@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    background-color: aqua;
+}
+.row{
+    background-color: rgb(240, 0, 0);
+}
+.box{
+    height: 50px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: blue;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-2{
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: rgb(64, 255, 0);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
